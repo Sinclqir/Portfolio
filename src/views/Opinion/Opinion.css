@@ -1,0 +1,37 @@
+.opinions{
+    min-height: 90vh;
+    padding: 1rem 3rem;
+    font-family: "Readex-Pro", sans-serif;
+    background-color: var(--black-body);
+}
+.opinions h1{
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.opinions .boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: repeat(3,auto);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .opinions{
+        padding: 1rem 0rem;
+    }
+    .opinions .boxes{
+        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: repeat(2,auto);
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .opinions .boxes{
+        grid-template-columns: 1fr; 
+        grid-template-columns: repeat(1,auto);
+    }
+}
+
+

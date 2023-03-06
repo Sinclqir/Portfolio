@@ -1,0 +1,54 @@
+
+.opinions .card{
+    text-align: center;
+    margin: 1rem 1rem;
+}
+.opinions .card .box{
+    padding: 1.5rem 1.5rem;
+    border-radius: 1rem;
+    height: 15rem;
+    background: var(--black-high);
+    cursor: pointer;
+}
+.opinions .card .box:hover{
+    transform: scale(1.1);
+    z-index: -7;
+}
+.opinions .card .box i{
+    color: var(--purple);
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.opinions .card .box .heading{
+    color: var(--purple);
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.opinions .card .box .text{
+    color: var(--white);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+    .opinions .card{
+        margin: 2rem 2rem;
+    }
+
+}
+@media only screen and (max-width: 780px) {
+    .opinions .card .box{
+        height: auto;
+    }
+    .opinions .card{
+        margin: 1rem 1.5rem;
+    }
+    .opinions .card .box:hover{
+        transform: scale(1.03);
+        z-index: -7;
+    }
+
+}
