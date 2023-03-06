@@ -9,7 +9,7 @@ function Opinion() {
       <h1>Avis</h1>
       <div className="boxes">
         <OpinionBox animation = "fade-up" heading = "(Anonyme), Professeur Java Script à l'IUT Nice" text = "~ Je suis fier d'avoir eu Sinclair comme étudiant en développement web pendant mon cours de JavaScript. Sinclair a démontré une solide compréhension des concepts clés de JavaScript et a été en mesure de les appliquer avec succès dans des projets de groupe." />
-        <OpinionBox animation = "fade-up" heading = "Mathéo Spatola, tuteur de stage chez Viapass" text = "J'ai eu le plaisir de travailler avec Sinclair en tant que développeur stagiaire en mars 2022. Sinclair a montré une grande capacité à comprendre rapidement les projets qui lui ont été confiés et a été capable de travailler de manière autonome. Je recommande vivement Sinclair pour toute opportunité de développement web."/>
+        <OpinionBox animation = "fade-up" heading = "Mathéo Spatola, tuteur de stage chez Viapass" text = "J'ai eu le plaisir de travailler avec Sinclair en tant que développeur stagiaire en mars 2022. Sinclair a montré une grande capacité à comprendre rapidement les projets qui lui ont été confiés et a été capable de travailler de manière autonome."/>
         <OpinionBox animation = "fade-up" heading = "Mickeal APPEL, maître d'apprentissage chez Buroclic" text = "~ J'ai eu le plaisir de superviser le travail de Sinclair chez Buroclic. En tant que développeur web, Sinclair a été en mesure de prendre en charge des projets de manière autonome et de les mener à bien de manière efficace." />
       </div>
     </div>
