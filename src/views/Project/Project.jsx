@@ -10,7 +10,7 @@ import img1 from  '../../images/comparaisonTri.png'
 import img2 from  '../../images/Portfolio.png'
 import img3 from  '../../images/appolox.png'
 import img4 from  '../../images/other.png'
-import img5 from  '../../images/viapass.png'
+import img5 from  '../../images/viapass.jpg'
 
 function Project() {
   useEffect(() =>{
