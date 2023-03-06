@@ -11,8 +11,8 @@ $(document).ready(function(){
     // typing animation 
     var typed = new Typed(".typing",{
       strings: ["WEB","Logiciel"],
-      typeSpeed: 1000,
-      backSpeed: 600,
+      typeSpeed: 100,
+      backSpeed: 60,
       loop:true
     });
 
