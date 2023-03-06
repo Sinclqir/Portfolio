@@ -110,6 +110,7 @@
         position: absolute;
         top: 5rem;
         right: 50px;
+        margin-left: 50px;
     }
     .home .right-content img{
         width: 100%;
