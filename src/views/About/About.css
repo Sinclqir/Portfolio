@@ -84,6 +84,7 @@
         border: 0.15rem solid var(--purple);
         text-decoration: none;
         list-style: none;
+        word-wrap: break-word;
     }
   }
 @media only screen and (max-width: 750px) {
