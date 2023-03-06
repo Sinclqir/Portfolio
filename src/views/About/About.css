@@ -91,7 +91,12 @@
         display: block;
     }
     .about .left-content {
+        position: relative;
+        top: initial;
+        right: initial;
+        margin-left: 0;
         width: 100%;
+        height: auto;
     }
     .about .left-content img{
         width: 35%;
