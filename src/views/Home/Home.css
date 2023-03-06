@@ -107,10 +107,12 @@
         border-radius: 0.2rem;
     }
     .home .right-content{
-        position: absolute;
-        top: 5rem;
-        right: 50px;
-        margin-left: 50px;
+        position: relative;
+        top: initial;
+        right: initial;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
     }
     .home .right-content img{
         width: 100%;
